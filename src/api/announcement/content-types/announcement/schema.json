@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "announcements",
+  "info": {
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "Announcement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "announcementId": {
+      "type": "uid"
+    },
+    "lastUser": {
+      "type": "string",
+      "required": true
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "nickName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "tenure": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "retirementDate": {
+      "type": "float"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "celebrationType": {
+      "type": "string"
+    },
+    "celebrationDate": {
+      "type": "float"
+    },
+    "celebrationTime": {
+      "type": "string"
+    },
+    "celebrationAddress": {
+      "type": "text"
+    }
+  }
+}
