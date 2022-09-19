@@ -4,16 +4,14 @@
   "info": {
     "singularName": "announcement",
     "pluralName": "announcements",
-    "displayName": "Announcement"
+    "displayName": "Announcement",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "announcementId": {
-      "type": "uid"
-    },
     "lastUser": {
       "type": "string",
       "required": true
