@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "lastUser": {
+    "submitterId": {
       "type": "string",
       "required": true
     },
@@ -57,6 +57,9 @@
     },
     "celebrationAddress": {
       "type": "text"
+    },
+    "retireeId": {
+      "type": "string"
     }
   }
 }
