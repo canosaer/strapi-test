@@ -46,7 +46,7 @@
     "bio": {
       "type": "text"
     },
-    "celebrationType": {
+    "location": {
       "type": "string"
     },
     "celebrationDateTime": {
