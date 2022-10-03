@@ -49,7 +49,7 @@
     "celebrationType": {
       "type": "string"
     },
-    "celebrationDate": {
+    "celebrationDateTime": {
       "type": "float"
     },
     "celebrationTime": {
