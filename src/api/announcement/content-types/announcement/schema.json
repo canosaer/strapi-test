@@ -28,7 +28,7 @@
     "jobTitle": {
       "type": "string"
     },
-    "team": {
+    "department": {
       "type": "string"
     },
     "site": {
