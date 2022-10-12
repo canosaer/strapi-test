@@ -52,9 +52,6 @@
     "celebrationDateTime": {
       "type": "float"
     },
-    "celebrationTime": {
-      "type": "string"
-    },
     "celebrationAddress": {
       "type": "text"
     },
