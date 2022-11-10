@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_programs",
+  "info": {
+    "singularName": "featured-program",
+    "pluralName": "featured-programs",
+    "displayName": "Featured Programs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mainHeading": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
+    },
+    "spotlightHeading": {
+      "type": "string"
+    },
+    "spotlightText": {
+      "type": "text"
+    },
+    "spotlightImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "spotlightLink": {
+      "type": "string"
+    },
+    "detailHeading1": {
+      "type": "string"
+    },
+    "detailImage1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "detailLink1": {
+      "type": "string"
+    },
+    "detailHeading2": {
+      "type": "string"
+    },
+    "detailImage2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "detailLink2": {
+      "type": "string"
+    }
+  }
+}
