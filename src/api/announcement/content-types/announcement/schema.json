@@ -57,6 +57,9 @@
     },
     "retireeId": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
