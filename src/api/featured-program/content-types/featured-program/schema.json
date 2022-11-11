@@ -4,7 +4,8 @@
   "info": {
     "singularName": "featured-program",
     "pluralName": "featured-programs",
-    "displayName": "Featured Programs"
+    "displayName": "Featured Programs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,14 +28,15 @@
       "type": "text"
     },
     "spotlightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "spotlightLink": {
       "type": "string"
@@ -43,14 +45,15 @@
       "type": "string"
     },
     "detailImage1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "detailLink1": {
       "type": "string"
@@ -59,17 +62,21 @@
       "type": "string"
     },
     "detailImage2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "detailLink2": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
