@@ -9,12 +9,15 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "@strapi/plugin-i18n": "4.3.8",
     "@strapi/plugin-users-permissions": "4.3.8",
     "@strapi/strapi": "4.3.8",
     "better-sqlite3": "7.4.6",
+    "dayjs": "^1.11.6",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^105.0.0",
     "pg": "^8.8.0"
   },
   "author": {
